@@ -63,6 +63,10 @@ img.dom {
     padding-right: 5%;
     
 }
+.author{
+  padding-top:1em;
+  font-family:minion-std-black;
+}
 
 img.domLeft {
   align-self: center;
@@ -143,7 +147,7 @@ body {
   background-color: #F19031;
 }
 .color-red {
-  background-color: #800000;
+  background-color: #e0474c;
 }
 .color-peach{
   background-color: #FFE5B4;
@@ -185,8 +189,9 @@ body {
   }
   img.dom {
     align-self: center;
+    width:80%;
     
-    padding-right: 5%;
+    padding-right: 0%;
     
     padding-bottom: 10%;
     
@@ -195,8 +200,9 @@ body {
 
 img.domLeft {
   align-self: center;
+  width:80%;
 
-  padding-left: 5%;
+  padding-left: 0%;
   
   padding-bottom: 10%;
   
@@ -209,6 +215,7 @@ img.domLeft {
   align-self: center;
   padding-bottom: 10%;
   order:1;
+  width: 100%;
   
 }
 
@@ -218,6 +225,9 @@ img.domLeft {
   margin: auto;
   padding-bottom: 10%;
   order:1;
+  width: 100%;
+  padding-left: 0%;
+  padding-right: 0%;
  
 }
 
@@ -228,6 +238,12 @@ img.domLeft {
   padding-bottom: 10%;
   color:#f4f4f4;
   order:1;
+  width: 100%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+h2{
+  font-size: 35px;
 }
 
 }
