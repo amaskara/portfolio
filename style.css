@@ -87,15 +87,16 @@ img.domLeft {
 
   /* drop cap */
   .dropcap {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 600;
   float: left;
-  line-height: 1;
+  line-height: 0.6;
   margin-top: 0.05em;
   margin-right: 0.1em;
   color: rgb(65,74,66);
 }
-.dropcap:before, .dropcap:after {
+.dropcap:before,
+.dropcap:after {
   content: “”;
   display: block;
 }
@@ -105,7 +106,6 @@ img.domLeft {
 .dropcap:after {
   margin-top: -0.05em;
 }
-  
   /* Setting fade transition and default settings */
 body {
   color: #000;
