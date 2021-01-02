@@ -65,7 +65,7 @@ img.dom {
 }
 .author{
   padding-top:1em;
-  font-family:minion-std-black;
+ text-align: right;
 }
 
 img.domLeft {
@@ -75,37 +75,20 @@ img.domLeft {
   
 }
 
-  img.opener {
+  #hor{
     
   
     width: 100%;
-    
     display: block;
     margin: auto;
 
   }
 
-  /* drop cap */
-  .dropcap {
-  font-size: 6rem;
-  font-weight: 600;
-  float: left;
-  line-height: 0.6;
-  margin-top: 0.05em;
-  margin-right: 0.1em;
-  color: rgb(65,74,66);
-}
-.dropcap:before,
-.dropcap:after {
-  content: “”;
-  display: block;
-}
-.dropcap:before {
-  margin-bottom: -0.175em;
-}
-.dropcap:after {
-  margin-top: -0.05em;
-}
+  #vert{
+    display: none;
+  }
+
+  
   /* Setting fade transition and default settings */
 body {
   color: #000;
@@ -175,6 +158,18 @@ body {
 
 
 @media screen and (max-width: 800px) {
+
+   #vert{
+    width: 100%;
+    display: block;
+    margin: auto;
+
+  }
+
+  #hor{
+    display: none;
+  }
+
   .panel {
     /* min height incase content is higher than window height */
     min-height: 100vh;
