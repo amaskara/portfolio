@@ -8,6 +8,7 @@
   a {
     color: #000000;
     
+    
   }
 
   a.textWhite {
@@ -27,12 +28,12 @@
 
 }
 
-#header a{
+ a{
   text-decoration: none;
   font-weight: bold;
 }
 
-#header a:hover{
+ a:hover{
   text-decoration: underline
 }
   
@@ -189,7 +190,7 @@ body {
   background-color: #F19031;
 }
 .color-red {
-  background-color: #e0474c;
+  background-color: #c24532;
 }
 .color-peach{
   background-color: #FFE5B4;
